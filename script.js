@@ -22,4 +22,8 @@ btn.addEventListener('click', function(e){
         console.log(ien)
         resultado.innerHTML= '🤑 R$ ' + ien + ' 🤑'
     }
+
+    else{
+        alert('Preencha todos os campos!')
+    }
 })
