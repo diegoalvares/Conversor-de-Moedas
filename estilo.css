@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(62, 185, 144);
+    text-align: center;
+    padding: 25px;
+}
+
+header>h1{
+    font-size: 45px;
+    color: white;
+}
+
+body{
+    background-color: rgb(240, 241, 241);
+}
+
+form{
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 160px;
+    color: rgb(97, 96, 96);
+    text-shadow: 1px 1px 1px rgb(212, 212, 212);
+}
+
+form>label{
+    margin-right: 50px;
+    margin-left: 22.7%;
+}
+
+input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 235px;
+    margin-right: 340px;
+    margin-left: 360px;
+}
+
+select{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 235px;
+}
+
+button{
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    background-color: rgb(62, 185, 144);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 1px 1px 1px grey;
+    margin-left: 41.5%;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(84, 214, 171);
+    transition-duration: 0.5s;
+}
+
+aside{
+    margin-top: 95px;
+    background-color: rgb(62, 185, 144);
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-weight: 600;
+}
+
+#resultado{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 45px;
+    color: rgb(46, 151, 116);
+    text-shadow: 1px 1px 1px grey;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>$DevConverter</title>
+</head>
+
+<body>
+    <header>
+        <h1>$DevConverter</h1>
+    </header>
+    <main>
+        <form>
+            <label>Valor a ser convertido</label>
+            <label>Escolha a Moeda</label><br><br>
+            <input type="number" placeholder="R$ 20,00" id="dinheiro">
+            <select name="moedas" id="moedas">
+                <option>Selecione</option>
+                <option>Dólar</option>
+                <option>Euro</option>
+                <option>Ien</option>
+            </select><br><br>
+            <button type="submit" id ='converter' >Converter</button>
+        </form>
+        <h1 id="resultado"></h1>
+    </main>
+    <aside>
+        <footer>
+            <span> &copy $DevConverter, 2023. Todos os direitos reservados.</span>
+        </footer>
+    </aside>
+</body>
+<script src="script.js"></script>
+</html>
