@@ -9,18 +9,18 @@ btn.addEventListener('click', function(e){
     if (moeda.value == 'Dólar'){
         const dolar = dinheiro.value*4.93
         console.log(dolar)
-        resultado.innerHTML = '🤑 R$ ' + dolar + ' 🤑'
+        resultado.innerHTML = '🤑 $ ' + dolar + ' 🤑'
     }
     else if (moeda.value == 'Euro'){
         const euro = dinheiro.value*5.25
         console.log(euro)
-        resultado.innerHTML = '🤑 R$ ' + euro + ' 🤑'
+        resultado.innerHTML = '🤑 € ' + euro + ' 🤑'
     }
 
     else if (moeda.value == 'Ien'){
         const ien = dinheiro.value*0.033
         console.log(ien)
-        resultado.innerHTML= '🤑 R$ ' + ien + ' 🤑'
+        resultado.innerHTML= '🤑 ¥ ' + ien + ' 🤑'
     }
 
     else{
