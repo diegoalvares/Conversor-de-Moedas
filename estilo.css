@@ -1,12 +1,8 @@
-*{
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 header{
     background-color: rgb(62, 185, 144);
     text-align: center;
     padding: 25px;
+    width: 100%;
 }
 
 header>h1{
@@ -14,22 +10,17 @@ header>h1{
     color: white;
 }
 
-body{
-    background-color: rgb(240, 241, 241);
-}
-
 form{
-    margin: auto;
     font-size: 15px;
     font-weight: 600;
-    margin-top: 160px;
     color: rgb(97, 96, 96);
     text-shadow: 1px 1px 1px rgb(212, 212, 212);
+    width: 100%;
 }
 
 form>label{
-    margin-right: 50px;
-    margin-left: 22.7%;
+    margin-left: 13.5%;
+    margin-right: 150px;
 }
 
 input{
@@ -37,8 +28,8 @@ input{
     padding: 10px;
     border-radius: 10px;
     width: 235px;
-    margin-right: 340px;
-    margin-left: 360px;
+    margin-right: 250px;
+    margin-left: 135px;
 }
 
 select{
@@ -46,6 +37,7 @@ select{
     padding: 10px;
     border-radius: 10px;
     width: 235px;
+    margin-right: 200px;
 }
 
 button{
@@ -59,19 +51,19 @@ button{
     font-size: 20px;
     font-weight: 600;
     border: none;
-    box-shadow: 1px 1px 1px grey;
-    margin-left: 41.5%;
+    box-shadow: 1px 1px 1px rgb(71, 71, 71);
+    margin-left: 35.5%;
     margin-top: 70px;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(84, 214, 171);
+    background-color: white;
+    color: rgb(84, 214, 171);
     transition-duration: 0.5s;
 }
 
 aside{
-    margin-top: 16.8%;
     background-color: rgb(62, 185, 144);
     font-size: 15px;
     border: none;
@@ -80,6 +72,7 @@ aside{
     color: white;
     text-shadow: 1px 1px 1px grey;
     font-weight: 600;
+    width: 100%;
 }
 
 #resultado{
