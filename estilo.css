@@ -8,6 +8,7 @@ header{
 header>h1{
     font-size: 45px;
     color: white;
+    text-shadow: 1px 1px 1px rgb(121, 120, 120);
 }
 
 form{
